@@ -50,7 +50,7 @@ var stopwatch = {
       //        and save the result in a variable.
       var converted = stopwatch.timeConverter(stopwatch.time);
       //  TODO: Add the current lap and time to the "laps" div.
-      $('#laps').append('<p>Lat ' + stopwatch.lap + ' : ' + converted + '</p>');
+      $('#laps').append('<p>Lap ' + stopwatch.lap + ' : ' + converted + '</p>');
 
       //  TODO: Increment lap by 1. Remember, we can't use "this" here.
   },
